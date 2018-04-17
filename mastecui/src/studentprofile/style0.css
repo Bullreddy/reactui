@@ -1,0 +1,66 @@
+div.component {
+    height: 100%;
+}
+div.left, div.right {
+    min-height: 130px;
+    float: left;
+    padding: 1px;
+    height: 100%;
+    background-color: #E5E7E9;
+}
+
+
+.tile_item {
+    float: left;
+    background-color: #E5E7E9;
+}
+
+.tile_item-1{
+    font-size: 20px;
+}
+
+.tile_item-2{
+    font-size: 22px;
+}
+
+.tile_item-3{
+    font-size: 10px;
+}
+
+.tile_item-child {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+.tile_item-header {
+  font-family: verdana, sans-serif;
+  font-size: 10px;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  letter-spacing: 0px;
+}
+
+.icon{
+  display: block;
+  float: right;
+  margin-left: 0;
+  width: 100px;
+  height: 31px;
+  background-image: url('logo.ico');
+  background-repeat: no-repeat;
+}
+
+div.icondiv {
+    width: 100px;
+
+    top:0;
+    bottom: 0;
+    left: 100;
+    right: 0;
+
+    margin: auto;
+}
